@@ -43,6 +43,8 @@ const render = async () => {
             deleteButton.addEventListener("click",  (event)=> {
                 event.preventDefault();
                 servicesProducts.deleteProduct(product.id);
+
+                render();
             });
         });
 
