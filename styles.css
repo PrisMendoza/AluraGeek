@@ -1,0 +1,185 @@
+html{
+    background-color: rgb(39, 39, 39);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.title{
+    display: inline;
+    align-items: center;
+    padding-left: 30%;
+}
+.header{
+    padding: 1rem;
+    display: flex;
+    background-color: black;
+    box-shadow: rgb(132, 143, 71) 0px 20px 30px -10px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header_logo{
+    float: left;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.buscar__input{
+    background-color: rgba(208, 255, 0, 0.301);
+    padding: .8rem;
+    border: none;
+    color: rgb(124, 134, 104);
+    font-size:medium;
+}
+
+.buscar__boton{
+    background: none;
+    border-style: none;
+    margin-left: -40px;
+
+}
+
+.buscar__boton:hover{
+    rotate: 20deg;
+}
+
+
+
+/* contenido */
+.main-container{
+    display: flex;
+    width: 90%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    align-content: center;
+}
+
+.card{
+    display: inline-block;
+    text-align: center;
+    margin: .8rem;
+    padding: 1rem;
+    width: 200px;
+    height: 340px;
+    overflow: hidden;
+    background-image: url(./assets/card.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-containter{
+    display:block;
+    align-content: center;
+    height: 250px;
+    width: 200px;
+    max-height: 250px;
+    overflow: hidden;
+    border-style:solid;
+    border-width: 1.5px;
+    background-color: white;
+}
+
+.card-container_info{
+    font-size: 15px;
+}
+
+.card-container_value{
+    font-size: x-large;
+    margin-top: -15px;
+}
+
+.delete-button{
+    position: absolute;
+    margin-top: -65px;
+    translate: -20px;
+    border: none;
+    outline: none;
+    background: none;
+}  
+    .delete-button:hover {
+    scale: 110%;
+  }  
+    .delete-button:active {
+    translate: 5px ;
+  }
+
+
+
+
+  /* agregar p */
+
+
+  .form-container{
+    padding: 0;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  #agregar-input{
+    width: 250px;
+    padding: 15px;
+    margin: 20px 0 20px 0;
+    border-radius: 5px;
+  }
+
+  #button{
+    margin: 15px;
+    padding: 8px 25px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #bbff00;
+    background-color: #525252;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #999;
+  }
+
+  #button:hover {
+    background-color: #687c1d;
+    color: white;
+  }
+  
+  #button:active {
+    background-color: #bb1c00;
+    color: #ffffff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+
+/* footer */
+.footer{
+    padding: 1rem;
+    display: flex;
+    background-color: black;
+    box-shadow: rgb(132, 143, 71) 10px -15px 30px -5px;
+    margin-top: 50px;
+    color: #d8ff6d;
+    display: block;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+h3{margin-bottom: -18px;}
+
+.img-footer{
+    position:absolute;
+    scale: 25%;
+    margin-top: -185px;
+    margin-left: 20%;
+    float: left;
+}

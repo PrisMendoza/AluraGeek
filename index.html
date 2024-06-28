@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="*">
+
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+    <header class="header"> 
+        <img class="header_logo" src="./assets/logo.png" width="5%" alt="AluraGeek"> 
+        <h1 class="title">ALURAGEEK</h1> 
+    </header>
+    
+    <main class="main-container">
+        
+        <section>
+            <h1>Mis Productos</h1>
+            <div data-product class="products-container">
+            </div>
+        </section>
+    
+        <section class="agregar">
+            <h1>Agregar Producto</h1>
+            <form class="form-container" data-form>
+                <input data-name placeholder="nombre" type="text" id="agregar-input" required>
+                <input data-price placeholder="precio" type="number" id="agregar-input" required>
+                <input data-image placeholder="imagen" type="url" id="agregar-input" required>
+
+                <div class="button-container">
+                    <button type="submit" class="button-submit" id="button">Enviar</button>
+                    <button type="reset" class="button-clear" id="button">Limpiar</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h3>DESARROLLADO POR PRISCILA MENDOZA</h3>
+        <H5>ALURALATAM - 2024</H5>
+        <img class="img-footer" src="./assets/ag-LOGO.png">
+    </footer>
+    <script src="./js/controlers/main.js" type="module"></script>
+</body>
+</html>
