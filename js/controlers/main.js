@@ -3,11 +3,6 @@ import { servicesProducts } from "../service/product-service.js";
 const productContainer = document.querySelector("[data-product]");
 const form = document.querySelector("[data-form]");
 
-
-function deleteProduct  (id){
-    servicesProducts.deleteProduct(id)
-}
-
 function createCard(nombre, precio, imagen, id) {
     const card = document.createElement("div");
 
@@ -21,7 +16,7 @@ function createCard(nombre, precio, imagen, id) {
             <p>${nombre}</p>
             <div class="card-container_value"> 
                 <p>$${precio}</p>
-                <button class="delete-button" data-id=${id}" onclick="javascript: deleteProduct(${id})"><img src="./assets/delete.png" width=35% alt="delete"></button>
+                <button class="delete-button" data-${id}><img src="./assets/delete.png" width=35% alt="delete"></button>
             </div>
         </div>`;
 
@@ -42,13 +37,19 @@ const render = async () => {
                     product.id
                 )
             );
+
+            const deleteButton = productContainer.querySelector (`[data-${product.id}]`);
+
+            deleteButton.addEventListener("click",  (event)=> {
+                event.preventDefault();
+                servicesProducts.deleteProduct(product.id);
+            });
         });
 
     } catch (error) {
         console.log(error);
     }
 };
-
 
 
 form.addEventListener("submit", (event)=> {
