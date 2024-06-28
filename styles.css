@@ -32,34 +32,15 @@ h1{
     padding-left: 5%;
 }
 
-.buscar__input{
-    background-color: rgba(208, 255, 0, 0.301);
-    padding: .8rem;
-    border: none;
-    color: rgb(124, 134, 104);
-    font-size:medium;
-}
-
-.buscar__boton{
-    background: none;
-    border-style: none;
-    margin-left: -40px;
-
-}
-
-.buscar__boton:hover{
-    rotate: 20deg;
-}
-
-
 
 /* contenido */
 .main-container{
     display: flex;
-    width: 90%;
-    margin-right: 2rem;
+    width: 70%;
+    margin-right: 1rem;
     margin-left: 2rem;
     align-content: center;
+    text-align: center;
 }
 
 .card{
@@ -98,7 +79,7 @@ h1{
 
 .delete-button{
     position: absolute;
-    margin-top: -65px;
+    margin-top: -55px;
     translate: -20px;
     border: none;
     outline: none;
@@ -112,23 +93,19 @@ h1{
   }
 
 
-
-
   /* agregar p */
 
 
   .form-container{
-    padding: 0;
-    display: block;
-    align-items: center;
-    justify-content: center;
-
+    padding: 0;  
+    position:fixed;
+    margin: 10px;
   }
 
   #agregar-input{
     width: 250px;
     padding: 15px;
-    margin: 20px 0 20px 0;
+    margin: 10px 0 0px 0;
     border-radius: 5px;
   }
 
