@@ -19,12 +19,6 @@
       "imagen": "https://m.media-amazon.com/images/I/618EwFsd6tL.__AC_SY300_SX300_QL70_ML2_.jpg"
     },
     {
-      "id": "4",
-      "nombre": "Levi Ackerman Attack on Titan",
-      "precio": "4464",
-      "imagen": "https://ss639.liverpool.com.mx/xl/1131990657.jpg"
-    },
-    {
       "id": "5",
       "nombre": "Appa Avatar",
       "precio": "249",
@@ -41,6 +35,12 @@
       "nombre": "Charizard Pokemon",
       "precio": "349",
       "imagen": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/187fb7f2-2d31-4145-8ecf-25e887b6a09b.da9e9208ec840de5f78c8d87a2552af4.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+    },
+    {
+      "id": "a049",
+      "nombre": "Naussica",
+      "precio": "980",
+      "imagen": "https://i.ebayimg.com/images/g/sxEAAOSw-YVkXFxC/s-l1200.webp"
     }
   ]
 }
